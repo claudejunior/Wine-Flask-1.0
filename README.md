@@ -5,15 +5,15 @@ A price comparison dashboard for a wine retail business
 ### Setting up the data
 * Open MySQL and select "Data Import/Restore" located under the Server tab
 * select "Import from Self-Contained File"
-* choose path for the file located in "Wine+Flask1.0/Data" labeled wineflaskdata.sql
+* choose path for the file located in "Wine+Flask1.0/Data" labeled "wineflaskdata.sql"
 
 ### Setting up the Keys
 There are several Keys being used for various different plugins
 * open config.py located in Wine+Flask1.0 folder
-  1. dbpassword: MySql server password (and database name from above step if named differently than "wineflaskdata")
-  2. gkey: Google API key, that is authorized to use Distance Matrix API
+  - dbpassword: MySql server password (and database name from above step if named differently than "wineflaskdata")
+  - gkey: Google API key, that is authorized to use Distance Matrix API
 * open app.js located in Wine+Flask_1.0/Wine+Flask_App/static/js \n
-  3. API_KEY: Mapbox(Leaflet) key 
+  - API_KEY: Mapbox(Leaflet) key 
   
 ### Chromedriver
 Make sure chromedriver setting is set according to your computer
